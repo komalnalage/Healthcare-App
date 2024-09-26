@@ -1,0 +1,21 @@
+diff --git a/node_modules/react-native-modal-dropdown/components/ModalDropdown.js b/node_modules/react-native-modal-dropdown/components/ModalDropdown.js
+index c7e4b4f..79a7f96 100644
+--- a/node_modules/react-native-modal-dropdown/components/ModalDropdown.js
++++ b/node_modules/react-native-modal-dropdown/components/ModalDropdown.js
+@@ -15,6 +15,7 @@ import {
+   TextInput
+ } from 'react-native';
+ import PropTypes from 'prop-types';
++import moment from 'moment';
+ 
+ const TOUCHABLE_ELEMENTS = [
+   'TouchableHighlight',
+@@ -481,7 +482,7 @@ export default class ModalDropdown extends Component {
+         testID={item}
+         {...dropdownTextProps}
+       >
+-        {value}
++        {moment(value, 'HH:mm').format('hh:mm A')}
+       </Text>
+     ) : (
+       renderRow(item, index, highlighted)

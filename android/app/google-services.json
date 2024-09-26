@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "814388898411",
+    "project_id": "hopehelpline-d49cb",
+    "storage_bucket": "hopehelpline-d49cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814388898411:android:c0d244a3c603c882425f2e",
+        "android_client_info": {
+          "package_name": "com.hopehelpline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814388898411-9ecimb56h3uq9v1jjo8g7r5gu2jr62s0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hopehelpline",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "814388898411-m409a8lmmn6v7rou8lsgug7nc3lsl2mo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hopehelpline",
+            "certificate_hash": "00857aee405aed930c0f127e805f5e8557cb8ba0"
+          }
+        },
+        {
+          "client_id": "814388898411-ci2ppcjlls774hrddivvbrv2q37ga8d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdiWzTweAjduCTnWXVauTQQ522Y6N8Qvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814388898411-ci2ppcjlls774hrddivvbrv2q37ga8d6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "814388898411-vgmfa3dsr0heeiof2kqnlb6shjuf7cuh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hopehelpline"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
